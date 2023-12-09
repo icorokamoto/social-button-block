@@ -1,0 +1,45 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// .wp-block-create-block-social-button-block {
+// 	background-color: #21759b;
+// 	color: #fff;
+// 	padding: 2px;
+// }
+
+.wp-block-create-block-social-button-block {
+	margin: 3em 0;
+	padding: 0;
+	line-height: 2em;
+	text-align: center;
+
+	li {
+		display: inline;
+		line-height: 0;
+		font-size: 0;
+		margin:0;
+		&:not( :first-child ) {
+			margin-left: 3px;
+		}
+	}
+
+	a {
+		display: inline-block;
+		padding: 0.8rem 0.6rem;
+		border-radius: 3px;
+		background-color: #bbb;
+		font-size: 0.8rem;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	a.share-tw { background: #1DA1F2; }
+	a.share-fb { background: #1877f2; }
+	a.share-hb { background: #5279E7; }
+	a.share-ln { background: #00B900; }
+	a.share-pk { background: #ee4056; }
+}
